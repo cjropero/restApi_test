@@ -1,0 +1,19 @@
+{
+  "name": "restapi_test",
+  "version": "0.0.1",
+  "description": "API testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjropero/restApi_test.git"
+  },
+  "author": "cjropero 50P3",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cjropero/restApi_test/issues"
+  },
+  "homepage": "https://github.com/cjropero/restApi_test#readme"
+}
