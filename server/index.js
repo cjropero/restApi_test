@@ -6,9 +6,20 @@ const PORT = 3000;
 // middleware 
 app.use(morgan('dev'));
 
-app.get('/', (res, req) => {
-  res.send('Testing route / !!')
+// Home
+app.get('/', (req, res) => {
+  res.send('Home del servidor')
 })
 
-app.listen(PORT, () => {console.log(`Server running on port ${PORT}`)});
+// App
+app.get('/app', (req, res) => {
+  res.send('App del servidor');
+});
+
+// *
+app.get('*', (req, res) => {
+  res.send('Donde estoy en el servidor (*)');
+});
+
+app.listen(PORT, () => console.log(`Server running at port ${PORT}`));
 
